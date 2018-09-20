@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
   <!-- personal CSS -->
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  
+  <link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
   <!-- javascript --><!-- jquery 1sty then popper then bootstrap js -->
 
   <!-- Jquery CDN-->
@@ -21,9 +21,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
-  <title> HOMEPAGE</title>
+    <!-- FAVICON -->
+<!--     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+ -->
+  <title> Homepage</title>
 </head>
 <body class="mainbg">
  <!-- NEED TO UPDATE
@@ -32,7 +34,7 @@
 
 <!-- NAVBAR -->
 
-<nav class="navbar navbar-expand-lg navbar-default" id="top">
+<nav class="navbar navbar-expand-lg navbar-default sticky-top" id="top">
   <a class="navbar-brand" href="index.html">BRAND here</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -62,7 +64,7 @@
         </div>
       </li>
       <li class="nav-item active" id="contactme">
-        <a class="nav-link" href="#">CONTACT ME</a>
+        <a class="nav-link" href="contact.html">CONTACT ME</a>
       </li>
     </ul>
   </div>
@@ -70,7 +72,7 @@
 
 <!-- MAIN CONTENT -->
   <!-- ROW1 -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row row1">
       <div class="cols col-lg-12"><h2 id="home-h2">WELCOME</h2></div>
     </div>
@@ -90,34 +92,90 @@
       <!-- ROW3 -->
     <div class="row row3">
       <div class="cols col-lg-12"><hr>
-        <h2 id="home-color"> View my Exercise Directory </h2><hr>
+        <h2 id="home-color"> VIEW MY EXERCISE DIRECTORY </h2><hr>
       </div>
     </div>
     <!-- ROW4 -->
     <div class="row row4">
       <div class="cols col-lg-4">
           <div class="card">
-            <h5 id="home-card">UPPER BODY EXERCISES</h5><img src="./assets/img/upper1.jpg" class="exercise-home">
+            <h5 id="home-card">UPPER BODY EXERCISES</h5>
+            <a href="upper.html">
+            <img src="./assets/img/upper1.jpg" class="exercise-home">
+            </a>
           </div>
       </div>
 
       <div class="cols col-lg-4">
           <div class="card">
-            <h5 id="home-card">LOWER BODY EXERCISES</h5><img src="./assets/img/lower1.jpg" class="exercise-home">
+            <h5 id="home-card">LOWER BODY EXERCISES</h5>
+            <a href="lower.html">
+            <img src="./assets/img/lower1.jpg" class="exercise-home">
+            </a>
           </div>
       </div>
       
       <div class="cols col-lg-4">
           <div class="card">
-            <h5 id="home-card">CORE EXERCISES</h5><img src="./assets/img/core1.jpg" class="exercise-home">
+            <h5 id="home-card">CORE EXERCISES</h5>
+            <a href="core.html">
+            <img src="./assets/img/core1.jpg" class="exercise-home">
+            </a>
           </div>
       </div>
     </div>
-</div>
+
+
+<!-- ROW5 -->
+
+    <div class="row row3">
+      <div class="cols col-lg-12">
+        <h2 id="home-color"> VIEW MY OTHER PAGES </h2><hr>
+      </div>
+    </div>
+
+<!-- ROW6 -->
+    <div class="row row4">
+        <div class="cols col-lg-4">
+            <div class="card">
+              <h5 id="home-card">READ THE FAQ</h5>
+              <a href="faq.html">
+              <img src="./assets/img/faq01.jpg" class="exercise-home">
+              </a>
+            </div>
+        </div>
+        <div class="cols col-lg-4">
+            <div class="card">
+              <h5 id="home-card">READ MY PROGRAM(free version)</h5>
+              <a href="programs.html">
+              <img src="./assets/img/program02.png" class="exercise-home">
+              </a>
+            </div>
+        </div>
+        <div class="cols col-lg-4">
+            <div class="card">
+              <h5 id="home-card">NUTRITION GUIDE</h5>
+              <a href="nutrition.html">
+              <img src="./assets/img/nutrition01.jpg" class="exercise-home">
+              </a>
+            </div>
+        </div>
+    </div> 
+  </div> <!-- END CONTAINER -->
+
+
+
+
+
+
+
+
+
+
     <!-- FOOTER -->
   <footer>
       <div class="row row5">
-        <div class="cols col-lg-6"><h5>DISCLAIMER :https://termsfeed.com/wizard/disclaimer</h5>
+        <div class="cols col-lg-6"><h5>DISCLAIMER :https://termsfeed.com/wizard/disclaimer</h5><hr>
           <p class="disclaimer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -125,7 +183,26 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="cols col-lg-6"><h5>CONTACT ME</h5></div>
+        <div class="cols col-lg-6"><h5>CONTACT ME</h5><hr>
+        <a href="mailto:fatdaleon@gmail.com">
+          <img src="./assets/img/contact1.png" class="contact-footer">
+        </a>
+        <a href="http://www.facebook.com/alvin.daleon.1">
+          <img src="./assets/img/contact2.png" class="contact-footer">
+        </a>
+        <a href="https://www.strava.com/athletes/adaleon">
+          <img src="./assets/img/contact3.jpg" class="contact-footer">
+        </a>
+        <a href="https://github.com/alvindaleon">
+          <img src="./assets/img/contact4.png" class="contact-footer">
+        </a>
+        <a href="https://www.linkedin.com/in/federick-alvin-daleon-811a8778/">
+          <img src="./assets/img/contact5.png" class="contact-footer">
+        </a>
+        <a href="https://www.youtube.com/channel/UC9DvtBYWDd3Ay_E2wgVxqnw?view_as=subscriber">
+          <img src="./assets/img/contact6.jpg" class="contact-footer">
+        </a>
+        </div>
       </div>
       <div class="row row6">
         <div class="cols col-lg-12">
@@ -133,10 +210,5 @@
         </div>
       </div>
   </footer>
-
-
-
-
-
 </body>
 </html>
