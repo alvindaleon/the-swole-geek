@@ -27,6 +27,7 @@
  -->
   <title> Homepage</title>
 </head>
+
 <body class="mainbg">
  <!-- NEED TO UPDATE
  no title yet
@@ -34,45 +35,52 @@
 
 <!-- NAVBAR -->
 
-<nav class="navbar navbar-expand-lg navbar-default" id="top">
-  <a class="navbar-brand" href="index.html">BRAND here</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="home.html">ABOUT (brand)</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="faq.html">FAQ</a>
-      </li>
-       <li class="nav-item active">
-        <a class="nav-link" href="programs.html">PROGRAMS</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="nutrition.html">NUTRITION</a>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          VIDEO GALLERY
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="upper.html">Upper Body Exercises</a>
-          <a class="dropdown-item" href="lower.html">Lower Body Exercises</a>
-          <a class="dropdown-item" href="core.html">Core Exercises</a>
-        </div>
-      </li>
-      <li class="nav-item active" id="contactme">
-        <a class="nav-link" href="contact.html">CONTACT ME</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-default">
+    <a class="navbar-brand" href="index.html">BRAND here</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">ABOUT (brand)</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="programs.html">PROGRAMS</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="nutrition.html">NUTRITION</a>
+        </li>
+
+        <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                VIDEO GALLERY
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="upper.html">Upper Body Exercises</a>
+                <a class="dropdown-item" href="lower.html">Lower Body Exercises</a>
+                <a class="dropdown-item" href="core.html">Core Exercises</a>
+              </div>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="faq.html">Q & A</a>
+        </li>
+
+        <li class="nav-item active" id="contactme">
+          <a class="nav-link" href="contact.html">CONTACT ME</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+<!-- END NAV -->
 
 <!-- MAIN CONTENT -->
   <!-- ROW1 -->
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="row row1">
       <div class="cols col-lg-12"><h2 id="home-h2">WELCOME</h2></div>
     </div>
@@ -91,36 +99,39 @@
       </div>
       <!-- ROW3 -->
     <div class="row row3">
-      <div class="cols col-lg-12"><hr>
+      <div class="cols col-lg-12">
         <h2 id="home-color"> VIEW MY EXERCISE DIRECTORY </h2><hr>
       </div>
     </div>
     <!-- ROW4 -->
     <div class="row row4">
-      <div class="cols col-lg-4">
+      <div class="col-lg-4">
           <div class="card">
-            <h5 id="home-card">UPPER BODY EXERCISES</h5>
-            <a href="upper.html">
-            <img src="./assets/img/upper1.jpg" class="exercise-home">
-            </a>
+              <h5 id="home-card">UPPER BODY EXERCISES</h5>
+              <img src="./assets/img/upper1.jpg" class="exercise-home">
+              <a href="upper.html">
+              <button class="btn btn-warning homebtn">ENTER</button>
+              </a>
           </div>
       </div>
 
-      <div class="cols col-lg-4">
+      <div class="col-lg-4 colshome">
           <div class="card">
-            <h5 id="home-card">LOWER BODY EXERCISES</h5>
-            <a href="lower.html">
-            <img src="./assets/img/lower1.jpg" class="exercise-home">
-            </a>
+              <h5 id="home-card">LOWER BODY EXERCISES</h5>
+              <img src="./assets/img/lower1.jpg" class="exercise-home">
+              <a href="lower.html">
+              <button class="btn btn-warning homebtn">ENTER</button>
+              </a>
           </div>
       </div>
       
-      <div class="cols col-lg-4">
+      <div class="col-lg-4">
           <div class="card">
-            <h5 id="home-card">CORE EXERCISES</h5>
-            <a href="core.html">
-            <img src="./assets/img/core1.jpg" class="exercise-home">
-            </a>
+              <h5 id="home-card">CORE EXERCISES</h5>
+              <img src="./assets/img/core1.jpg" class="exercise-home">
+               <a href="core.html">
+              <button class="btn btn-warning homebtn">ENTER</button>
+              </a>
           </div>
       </div>
     </div>
@@ -128,36 +139,39 @@
 
 <!-- ROW5 -->
 
-    <div class="row row3">
-      <div class="cols col-lg-12">
+    <div class="row row4">
+      <div class="col-lg-12">
         <h2 id="home-color"> VIEW MY OTHER PAGES </h2><hr>
       </div>
     </div>
 
 <!-- ROW6 -->
-    <div class="row row4">
-        <div class="cols col-lg-4">
+    <div class="row row4 row4v2">
+        <div class="col-lg-4">
             <div class="card">
-              <h5 id="home-card">READ THE FAQ</h5>
-              <a href="faq.html">
-              <img src="./assets/img/faq01.jpg" class="exercise-home">
-              </a>
+                <h5 id="home-card">View my Q & A page</h5>
+                <img src="./assets/img/faq01.jpg" class="exercise-home">
+                <a href="faq.html">
+                <button class="btn btn-warning homebtn">ENTER</button>
+                </a>
             </div>
         </div>
-        <div class="cols col-lg-4">
+        <div class="col-lg-4 colshome">
             <div class="card">
-              <h5 id="home-card">SEE MY EXERCISE PROGRAMS(free version)</h5>
-              <a href="programs.html">
+              <h5 id="home-card">MY EXERCISE PROGRAMS</h5>
               <img src="./assets/img/program02.png" class="exercise-home">
+              <a href="programs.html">
+              <button class="btn btn-warning homebtn">ENTER</button>
               </a>
             </div>
         </div>
-        <div class="cols col-lg-4">
+        <div class="col-lg-4">
             <div class="card">
-              <h5 id="home-card">NUTRITION GUIDE</h5>
-              <a href="nutrition.html">
-              <img src="./assets/img/nutrition02.jpg" class="exercise-home">
-              </a>
+                <h5 id="home-card">NUTRITION GUIDE</h5>
+                <img src="./assets/img/nutrition02.jpg" class="exercise-home">    
+                <a href="nutrition.html">
+                <button class="btn btn-warning homebtn">ENTER</button>
+                </a>
             </div>
         </div>
     </div> 
@@ -166,16 +180,10 @@
 
 
 
-
-
-
-
-
-
     <!-- FOOTER -->
-  <footer>
+  <footer class="container-fluid">
       <div class="row row5">
-        <div class="cols col-lg-6"><h5>DISCLAIMER :https://termsfeed.com/wizard/disclaimer</h5><hr>
+        <div class="cols col-lg-4"><h4>DISCLAIMER </h4><hr>
           <p class="disclaimer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -183,32 +191,41 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="cols col-lg-6"><h5>CONTACT ME</h5><hr>
-        <a href="mailto:fatdaleon@gmail.com">
-          <img src="./assets/img/contact1.png" class="contact-footer">
-        </a>
+        <div class="cols col-lg-4 footer-content"><h4 class="text-center">Keep Connected</h4><hr>
         <a href="http://www.facebook.com/alvin.daleon.1">
-          <img src="./assets/img/contact2.png" class="contact-footer">
-        </a>
+          <p><img src="./assets/img/contact2.png" class="contact-footer">
+        </a>Connect to me on Facebook!</p>
         <a href="https://www.strava.com/athletes/adaleon">
-          <img src="./assets/img/contact3.jpg" class="contact-footer">
-        </a>
+          <p><img src="./assets/img/contact3.jpg" class="contact-footer">
+        </a>Connect to me on Strava!</p>
         <a href="https://github.com/alvindaleon">
-          <img src="./assets/img/contact4.png" class="contact-footer">
-        </a>
+           <p><img src="./assets/img/contact4.png" class="contact-footer">
+        </a>Connect to me on Github!</p>
         <a href="https://www.linkedin.com/in/federick-alvin-daleon-811a8778/">
-          <img src="./assets/img/contact5.png" class="contact-footer">
-        </a>
+           <p><img src="./assets/img/contact5.png" class="contact-footer">
+        </a>Connect to me on Linkedin!</p>
         <a href="https://www.youtube.com/channel/UC9DvtBYWDd3Ay_E2wgVxqnw?view_as=subscriber">
-          <img src="./assets/img/contact6.jpg" class="contact-footer">
-        </a>
+          <p><img src="./assets/img/contact6.jpg" class="contact-footer">
+        </a>Connect to my Youtube Channel!</p>
         </div>
+           <div class="cols col-lg-4">
+            <h4>Contact information</h4><hr>
+            <p class="disclaimer"><i class="fas fa-user-alt fa-lg backtotop"></i> Name: Federick Alvin Daleon</p>
+            <p class="disclaimer"><i class="fas fa-phone-square backtotop fa-lg"></i> Mobile: 09178447569</p>
+            <p class="disclaimer"><i class="fas fa-map-marker-alt backtotop fa-lg"></i>Address: Federick Alvin Daleon</p>
+            <p class="disclaimer"><i class="fas fa-envelope backtotop fa-lg"></i> Email: fatdaleon@gmail.com</p>
+          </div>
       </div>
+
       <div class="row row6">
         <div class="cols col-lg-12">
-          <a href="#top"><img src="./assets/img/favicon3.png" id="backtotop"></a>
+          <a href="#top">
+          <i class="fas fa-chevron-circle-up fa-lg backtotop"></i>
+          </a>
         </div>
       </div>
   </footer>
+
+
 </body>
 </html>

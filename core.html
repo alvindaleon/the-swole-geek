@@ -27,7 +27,7 @@
  -->
   <title> Homepage</title>
 </head>
-<body>
+<body class="mainbg">
  <!-- NEED TO UPDATE
  no title yet
  no LOGO -->
@@ -44,30 +44,136 @@
       <li class="nav-item active">
         <a class="nav-link" href="home.html">ABOUT (brand)</a>
       </li>
+
       <li class="nav-item active">
-        <a class="nav-link" href="faq.html">FAQ</a>
-      </li>
-       <li class="nav-item active">
         <a class="nav-link" href="programs.html">PROGRAMS</a>
       </li>
+
       <li class="nav-item active">
         <a class="nav-link" href="nutrition.html">NUTRITION</a>
       </li>
+
       <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          VIDEO GALLERY
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="upper.html">Upper Body Exercises</a>
-          <a class="dropdown-item" href="lower.html">Lower Body Exercises</a>
-          <a class="dropdown-item" href="core.html">Core Exercises</a>
-        </div>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              VIDEO GALLERY
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="upper.html">Upper Body Exercises</a>
+              <a class="dropdown-item" href="lower.html">Lower Body Exercises</a>
+              <a class="dropdown-item" href="core.html">Core Exercises</a>
+            </div>
       </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="faq.html">Q & A</a>
+      </li>
+
       <li class="nav-item active" id="contactme">
-        <a class="nav-link" href="#">CONTACT ME</a>
+        <a class="nav-link" href="contact.html">CONTACT ME</a>
       </li>
+
     </ul>
   </div>
 </nav>
+<!-- END NAV -->
+
+
+<!-- MAIN content -->
+
+<div class="container-fluid">
+    <div class="row row1">
+      <div class="cols col-lg-12">
+        <h2 id="home-h2">WELCOME</h2>
+      </div>
+    </div>
+
+<div class="row row2 video-gallery">
+    <div class="col-lg-12">
+          <h2 id="home-color"> CORE Exercises </h2><hr>
+          <p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+    </div>   
+
+<!-- Gallery 1-->
+        <div class="col-lg-4 vidgallery offset-lg-2">
+          <h5 id="home-card">Sprawl to push ups hand</h5>
+            <div class="embed-responsive embed-responsive-16by9">
+        <!-- YOUTUBE  -> share -> embed -> copy all -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2wwieDTDB48" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <p class="p-content text-center">Target: Abdominals, Pectorals(chest), Shoulders(anterior) , Triceps</p>
+            <p class="p-content text-center">Type: Compound</p>
+            <p class="p-content text-center">Priority: Supplementary</p>
+            <p class="p-content text-center">Execution: Slow and Controlled</p>
+        </div>
+
+        <div class="col-lg-4 vidgallery">
+          <h5 id="home-card">Abdominal Situps</h5>
+            <div class="embed-responsive embed-responsive-16by9">
+        <!-- YOUTUBE  -> share -> embed -> copy all -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mgrbCCTPeuA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <p class="p-content text-center">Target: Abdominals</p>
+            <p class="p-content text-center">Type: Isolation</p>
+            <p class="p-content text-center">Priority: Supplementart</p>
+            <p class="p-content text-center">Execution: Slow and Controlled</p>
+        </div>
+
+  </div><!-- row 2 end -->
+</div><!-- container end -->
+
+
+
+    <!-- FOOTER -->
+  <footer class="container-fluid">
+      <div class="row row5">
+        <div class="cols col-lg-4"><h4>DISCLAIMER </h4><hr>
+          <p class="disclaimer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="cols col-lg-4 footer-content"><h4 class="text-center">Keep Connected</h4><hr>
+        <a href="http://www.facebook.com/alvin.daleon.1">
+          <p><img src="./assets/img/contact2.png" class="contact-footer">
+        </a>Connect to me on Facebook!</p>
+        <a href="https://www.strava.com/athletes/adaleon">
+          <p><img src="./assets/img/contact3.jpg" class="contact-footer">
+        </a>Connect to me on Strava!</p>
+        <a href="https://github.com/alvindaleon">
+           <p><img src="./assets/img/contact4.png" class="contact-footer">
+        </a>Connect to me on Github!</p>
+        <a href="https://www.linkedin.com/in/federick-alvin-daleon-811a8778/">
+           <p><img src="./assets/img/contact5.png" class="contact-footer">
+        </a>Connect to me on Linkedin!</p>
+        <a href="https://www.youtube.com/channel/UC9DvtBYWDd3Ay_E2wgVxqnw?view_as=subscriber">
+          <p><img src="./assets/img/contact6.jpg" class="contact-footer">
+        </a>Connect to my Youtube Channel!</p>
+        </div>
+           <div class="cols col-lg-4">
+            <h4>Contact information</h4><hr>
+            <p class="disclaimer"><i class="fas fa-user-alt fa-lg backtotop"></i> Name: Federick Alvin Daleon</p>
+            <p class="disclaimer"><i class="fas fa-phone-square backtotop fa-lg"></i> Mobile: 09178447569</p>
+            <p class="disclaimer"><i class="fas fa-map-marker-alt backtotop fa-lg"></i>Address: Federick Alvin Daleon</p>
+            <p class="disclaimer"><i class="fas fa-envelope backtotop fa-lg"></i> Email: fatdaleon@gmail.com</p>
+          </div>
+      </div>
+
+      <div class="row row6">
+        <div class="cols col-lg-12">
+          <a href="#top">
+          <i class="fas fa-chevron-circle-up fa-lg backtotop"></i>
+          </a>
+        </div>
+      </div>
+  </footer>
+
+
 </body>
 </html>
