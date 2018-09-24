@@ -37,7 +37,9 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
+em {
+	color: #70964B;
+}
 
 h1,h2,h3,h4,h5,h6 {
 	color: #FFF2F2;
@@ -209,9 +211,11 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 50px;
 }
 
-/*.colshome {
-	margin-right: -8px;
-}*/
+.colshome {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 
 .exercise-home {
 	max-width: 100%;
@@ -246,7 +250,7 @@ h1,h2,h3,h4,h5,h6 {
 footer {
 /*	height: 400px;*/
 	width: 100%;
-	background-color: #5A4862;
+	background-color: #875094;
 	text-align: center;
 	padding: 80px 10px 0px;
 }
@@ -254,9 +258,10 @@ footer {
 /*ROW6 FOOTER*/
 
 .disclaimer {
-	line-height: normal;
+/*	line-height: normal;*/
 	text-align: justify;
 	padding:0px 20px 0px;
+	color: #F7F7F7;
 
 }
 
@@ -267,6 +272,7 @@ footer {
 
 .pfooter {
 	margin: 3px 0 0;
+	color: #f7f7f7;
 }
 
 .footer-content{
@@ -320,11 +326,35 @@ iframe {
 	border-radius: 10px;
 }
 
+
+/*NUTRITION*/
+
+.nutri01,.bodypic1 {
+	width: 100%;
+	height: auto;
+
+}
+
+#nutrition-main {
+	margin: 0;
+}
+
+.figure-caption {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
+
+/*Q & A*/
+.q-content {
+	color: #9BC063;
+}
+
+
 /*MEDIA QUERY*/
 /*TABLET*/
 @media only screen and (min-width: 451px) and (max-width: 768px) {
 .dropdown-menu,.dropdown-item {
-	margin-left: 130px;
+	margin-left: 140px;
 	}
 .hero-text {
     top: 73%;
@@ -350,7 +380,7 @@ iframe {
     left: 40%;
 	}
 .dropdown-menu,.dropdown-item {
-	margin-left: 30px;
+	margin-left: 40px;
 	}
 .nav-item {
 	padding: 0;
@@ -363,6 +393,8 @@ iframe {
 .video-gallery {
 	padding: 0;
 	}
-
+.colshome {
+	padding:0;
+}
 }
 
