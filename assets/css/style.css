@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .hero-image {
-	background-image: url(../img/bg001x.jpg);
+	background-image: url(../img/hulkwall01.png);
 	height: 1020px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -250,7 +250,7 @@ h1,h2,h3,h4,h5,h6 {
 footer {
 /*	height: 400px;*/
 	width: 100%;
-	background-color: #875094;
+	background-color: #5a4862;
 	text-align: center;
 	padding: 80px 10px 0px;
 }
