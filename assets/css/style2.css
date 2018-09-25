@@ -1,0 +1,68 @@
+/*@media only screen and (max-width: 450px){}
+@media only screen and (min-width: 451px) and (max-width: 768px) {}
+*/
+
+/*@font-face{
+	font-family: 'hulksmash';
+	src: url("./fonts/hulksmash.ttf");
+}
+*/
+/*
+COLOR
+#253324
+#9BC063
+#70964B
+#455D3B*/
+
+/*FONT
+font-family: 'Roboto', sans-serif;
+font-family: 'Francois One', sans-serif;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #D1D1D1; 
+	font-family: 'Francois One', sans-serif;
+} 
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #70964b;
+}
+
+.container1:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: #f7f7f7;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
