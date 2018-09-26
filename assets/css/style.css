@@ -246,6 +246,9 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /*ROW5*/
+.row5 {
+	margin-bottom: 80px;
+}
 
 footer {
 /*	height: 400px;*/
@@ -262,8 +265,13 @@ footer {
 	text-align: justify;
 	padding:0px 20px 0px;
 	color: #F7F7F7;
-
 }
+
+.disclaimer-link {
+	text-decoration: none;
+	color: #F7F7F7;
+}
+
 
 .contact-footer {
 	width: 36px;
@@ -281,8 +289,11 @@ footer {
 
 .backtotop {
 	color: #FFF2F2;
-	padding-top: 100px;
 
+}
+
+.bottomup {
+	background-color: #423548;
 }
 
 /*CONTACT.HTML*/
