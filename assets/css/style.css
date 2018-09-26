@@ -401,7 +401,7 @@ iframe {
 /*TABLET*/
 @media only screen and (min-width: 451px) and (max-width: 768px) {
 .dropdown-menu,.dropdown-item {
-	margin-left: 140px;
+	margin-left: 150px;
 	}
 .hero-text {
     top: 73%;
@@ -427,7 +427,7 @@ iframe {
     left: 31%;
 	}
 .dropdown-menu,.dropdown-item {
-	margin-left: 40px;
+	margin-left: 50px;
 	}
 .nav-item {
 	padding: 0;
