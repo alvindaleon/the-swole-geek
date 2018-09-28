@@ -211,6 +211,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 50px;
 }
 
+
 .colshome {
 	padding-left: 100px;
 	padding-right: 100px;
@@ -223,6 +224,12 @@ h1,h2,h3,h4,h5,h6 {
 	height: auto;
 	box-shadow: 8px 8px 15px #9BC063;
 }
+
+/*.exercise-home:hover {
+	box-shadow: 8px 8px 15px #9BC063;
+}
+*/
+
 
 #home-card {
 	color: #70964B;
@@ -412,7 +419,7 @@ iframe {
 /*TABLET*/
 @media only screen and (min-width: 451px) and (max-width: 768px) {
 .dropdown-menu,.dropdown-item {
-	margin-left: 150px;
+	margin-left: 140px;
 	}
 .hero-text {
     top: 73%;
@@ -438,7 +445,7 @@ iframe {
     left: 31%;
 	}
 .dropdown-menu,.dropdown-item {
-	margin-left: 50px;
+	margin-left: 40px;
 	}
 .nav-item {
 	padding: 0;
